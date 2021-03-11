@@ -1,0 +1,21 @@
+var a = prompt('Mennyi a benzin jelenlegi ára?');
+var b = prompt('Hány napot dolgoztam?');
+var l = prompt('Támogatás Km/Ft.');
+
+var c = 39*2
+var d = 6
+var e = b*c
+var f = e/100
+var g = d*a*f
+var h = g/e
+var i = h-12
+var j = i*e
+var k = l*e
+
+
+
+document.getElementById("megjelen").innerHTML = Number(e); 
+document.getElementById("megjelen1").innerHTML = Number(g); 
+document.getElementById("megjelen2").innerHTML = Number(h); 
+document.getElementById("megjelen3").innerHTML = Number(j); 
+document.getElementById("megjelen4").innerHTML = Number(k); 
